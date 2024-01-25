@@ -1,0 +1,60 @@
+.clinicas .titulo {
+  margin-top: 80px;
+}
+.clinicas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.clinica-caixa {
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+#mapa {
+  width: 100%;
+}
+.clinica-caixa h4 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  padding-left: 40px;
+}
+.clinica-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 12px;
+}
+.clinica-hora {
+  display: flex;
+  gap: 4px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.clinicas .clinica-caixa img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+@media (max-width: 950px) {
+  .clinicas {
+    grid-template-columns: 1fr;
+  }
+  .clinica-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 12px;
+  }
+  .clinica-hora {
+    padding-left: 10px;
+  }
+  .clinica-caixa h4 {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .clinica-info {
+    grid-template-columns: 1fr;
+  }
+}

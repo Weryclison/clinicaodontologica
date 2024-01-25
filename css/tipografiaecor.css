@@ -1,0 +1,83 @@
+.font-1-a {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 110%;
+}
+.font-1-b {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.font-1-c {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+}
+.font-1-d {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+}
+.font-1-e {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+@media (max-width: 750px) {
+  .font-1-a {
+    font-size: 1.5rem;
+  }
+  .font-1-b {
+    font-size: 1.5rem;
+    line-height: 110%;
+  }
+}
+
+:root {
+  --escuro: #0a1834;
+  --escuro-1: #040f26;
+  --escuro-2: #010a1c;
+  --azul: #2b4c91;
+  --azul-1: #1f4188;
+  --azul-2: #103073;
+  --branco: #f7f9fb;
+  --branco-1: #edf4f9;
+  --branco-2: #dae7f0;
+}
+
+.azul {
+  color: var(--azul);
+}
+.azul-1 {
+  color: var(--azul-1);
+}
+.azul-2 {
+  color: var(--azul-2);
+}
+.azul-3 {
+  color: var(--azul-3);
+}
+.branco {
+  color: var(--branco);
+}
+.branco-1 {
+  color: var(--branco-1);
+}
+.branco-2 {
+  color: var(--branco-2);
+}
+.escuro {
+  color: var(--escuro);
+}
+.escuro-1 {
+  color: var(--escuro-1);
+}
+
+.escuro-2 {
+  color: var(--escuro-2);
+}
